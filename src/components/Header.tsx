@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <header className="fixed w-full bg-gray-900 bg-opacity-90 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-white">Mi Portafolio</a>
+        <a href="#" className="text-2xl font-bold text-white">Portafolio Thom</a>
         <nav className="hidden md:flex space-x-6">
           <a href="#about" className="text-white hover:text-gray-300 transition">Sobre Mí</a>
           <a href="#projects" className="text-white hover:text-gray-300 transition">Proyectos</a>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const About: React.FC = () => {
   return (
@@ -8,28 +8,30 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="/prefil.png"
-              alt="Tu foto"
+              src="/perfil.png"
+              alt="perfil"
               className="rounded-full w-64 h-64 object-cover mx-auto"
             />
           </div>
           <div className="md:w-1/2">
             <p className="text-lg mb-4">
-              Soy un desarrollador web apasionado con experiencia en la creación
-              de aplicaciones web modernas y escalables. Me especializo en
-              tecnologías como React, Next.js, Express y PostgreSQL.
+              ¡Hola! Soy un desarrollador web apasionado por crear aplicaciones
+              modernas y escalables, me encanta lo que hago. Me siento muy
+              cómodo con tecnologías como React, Next.js, Express y PostgreSQL.
             </p>
             <p className="text-lg mb-4">
-              Mi objetivo es crear soluciones innovadoras que mejoren la vida de
-              las personas y contribuyan al avance tecnológico. Siempre estoy
-              buscando nuevos desafíos y oportunidades para aprender y crecer
-              profesionalmente.
+              Mi objetivo es simple: hacer que la tecnología funcione para las
+              personas, no al revés. No me dedico a resolver problemas, sino a
+              crear soluciones. Siempre estoy en busca de proyectos interesantes
+              y desafiantes que me ayuden a seguir aprendiendo y mejorando. ¡Si
+              hay una manera de hacer algo mejor o más eficiente, ahí estaré
+              metido!
             </p>
             <a
               href="#contact"
-              className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition"
+              className="inline-block border text-white py-2 px-4 rounded hover:bg-red-950 transition"
             >
-              Contáctame
+              Contactar
             </a>
           </div>
         </div>
