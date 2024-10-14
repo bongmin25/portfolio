@@ -15,21 +15,21 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-1/2">
             <p className="text-lg mb-4">
-              ¡Hola! Soy un desarrollador web apasionado por crear aplicaciones
-              modernas y escalables, me encanta lo que hago. Me siento muy
-              cómodo con tecnologías como React, Next.js, Express y PostgreSQL.
+              ¡Hola!👋🏻 Soy un desarrollador web de Buenos Aires, Argentina, de
+              27 años con una gran pasión por la programación. Disfruto trabajar
+              con la tecnología y siempre estoy aprendiendo cosas nuevas para
+              mejorar mis habilidades.
             </p>
             <p className="text-lg mb-4">
-              Mi objetivo es simple: hacer que la tecnología funcione para las
-              personas, no al revés. No me dedico a resolver problemas, sino a
-              crear soluciones. Siempre estoy en busca de proyectos interesantes
-              y desafiantes que me ayuden a seguir aprendiendo y mejorando. ¡Si
-              hay una manera de hacer algo mejor o más eficiente, ahí estaré
-              metido!
+              Mi objetivo es simple: vivir de lo que me apasiona y usar la
+              tecnología para mejorar la vida de las personas. Más que resolver
+              problemas, me enfoco en crear soluciones. Estoy en constante
+              búsqueda de proyectos desafiantes que me permitan seguir creciendo
+              y aprendiendo. 👨🏻‍💻
             </p>
             <a
               href="#contact"
-              className="inline-block border text-white py-2 px-4 rounded hover:bg-red-950 transition"
+              className="inline-block border text-white py-2 px-4 rounded hover:bg-red-950 transition font-bold"
             >
               Contactar
             </a>

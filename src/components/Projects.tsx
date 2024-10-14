@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Appointment App",
     description:
-      "Plataforma de e-commerce TechShop hecha con Node.js, Express y MongoDB.",
+      "Plataforma para agendar turnos hecha con React.js, Express y PostgreSQL",
     image: "appointment.png",
     github: "https://github.com/bongmin25/Appointment-App/",
     live: "https://github.com/bongmin25/Appointment-App/",
