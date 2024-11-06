@@ -18,14 +18,14 @@ const About: React.FC = () => {
               ¡Hola!👋🏻 Soy un desarrollador web de Buenos Aires, Argentina, de
               27 años con una gran pasión por la programación. Disfruto trabajar
               con la tecnología y siempre estoy aprendiendo cosas nuevas para
-              mejorar mis habilidades.
+              mejorar mis habilidades. 👨🏻‍💻
             </p>
             <p className="text-lg mb-4">
-              Mi objetivo es simple: vivir de lo que me apasiona y usar la
-              tecnología para mejorar la vida de las personas. Más que resolver
-              problemas, me enfoco en crear soluciones. Estoy en constante
-              búsqueda de proyectos desafiantes que me permitan seguir creciendo
-              y aprendiendo. 👨🏻‍💻
+              Mi objetivo es simple: Crecer en una empreza para poder vivir de
+              lo que me apasiona y usar la tecnología para mejorar la vida de
+              las personas. Más que resolver problemas, me enfoco en crear
+              soluciones. Estoy en constante búsqueda de proyectos desafiantes
+              que me permitan seguir creciendo y aprendiendo.
             </p>
             <a
               href="#contact"

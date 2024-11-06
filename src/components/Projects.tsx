@@ -4,7 +4,15 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     title: "E-commerce | TechMobile",
-    description: "Aplicación de e-commerce desarrollada con Express y Next.js",
+    description: "Aplicación de e-commerce",
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Express",
+      "Next.js",
+      "PostgreSQL",
+    ],
     image: "/ecommerce.png",
     github: "https://github.com/bongmin25/e-commerce",
     live: "https://github.com/bongmin25/e-commerce",
@@ -12,7 +20,15 @@ const projects = [
   {
     title: "Appointment App",
     description:
-      "Plataforma para agendar turnos hecha con React.js, Express y PostgreSQL",
+      "Plataforma para agendar turnos",
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "MongoDB",
+      "Express",
+      "PostgreSQL",
+    ],
     image: "appointment.png",
     github: "https://github.com/bongmin25/Appointment-App/",
     live: "https://github.com/bongmin25/Appointment-App/",
@@ -20,8 +36,16 @@ const projects = [
   {
     title: "Cinema",
     description:
-      "Aplicación de Cine para agregar películas y verlas en la lista",
+      "Aplicación de Cine",
     image: "/cinema.png",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "HTML",
+      "Express",
+      "Next.js",
+      "PostgreSQL",
+    ],
     github: "https://github.com/bongmin25/Cinema",
     live: "https://github.com/bongmin25/Cinema",
   },
@@ -45,8 +69,18 @@ const Projects: React.FC = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
-                <div className="flex justify-between">
+                <p className="text-gray-300 mb-4">{project.description}</p>{" "}
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {project.technologies.map((tech, i) => (
+                    <span
+                      key={i}
+                      className="bg-slate-600 text-white text-sm px-2 py-1 rounded"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex justify-between mt-5">
                   <a
                     href={project.github}
                     target="_blank"
