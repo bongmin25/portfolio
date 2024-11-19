@@ -21,7 +21,7 @@ const About: React.FC = () => {
               mejorar mis habilidades. 👨🏻‍💻
             </p>
             <p className="text-lg mb-4">
-              Mi objetivo es simple: Crecer en una empreza para poder vivir de
+              Mi objetivo es simple: crecer en una empresa para poder vivir de
               lo que me apasiona y usar la tecnología para mejorar la vida de
               las personas. Más que resolver problemas, me enfoco en crear
               soluciones. Estoy en constante búsqueda de proyectos desafiantes
