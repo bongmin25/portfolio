@@ -15,17 +15,15 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-1/2">
             <p className="text-lg mb-4">
-              ¡Hola!👋🏻 Soy un desarrollador web de Buenos Aires, Argentina, de
-              27 años con una gran pasión por la programación. Disfruto trabajar
-              con la tecnología y siempre estoy aprendiendo cosas nuevas para
-              mejorar mis habilidades. 👨🏻‍💻
+              ¡Hola!👋🏻 Soy <strong>Thomas</strong>, un programador y diseñador
+              web que vive en <strong>Buenos Aires, Argentina.</strong> Me
+              considero un tipazo, me gusta programar, aprender y construir
+              nuevas relaciones.
             </p>
             <p className="text-lg mb-4">
-              Mi objetivo es simple: crecer en una empresa para poder vivir de
-              lo que me apasiona y usar la tecnología para mejorar la vida de
-              las personas. Más que resolver problemas, me enfoco en crear
-              soluciones. Estoy en constante búsqueda de proyectos desafiantes
-              que me permitan seguir creciendo y aprendiendo.
+              <strong>Mi objetivo es simple: </strong>
+              crecer en una empresa para poder vivir de lo que me apasiona y
+              usar la tecnología para mejorar la vida de las personas.
             </p>
             <a
               href="#contact"
