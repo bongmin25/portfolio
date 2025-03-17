@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
     >
       <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
         <h1 className="text-5xl font-bold mb-4">Thomas Dantas</h1>
-        <p className="text-2xl mb-6">Desarrollador Web Full Stack</p>
+        <p className="text-2xl mb-6">Desarrollador Web Front End</p>
         <div className="flex justify-center space-x-4">
           <a
             href="https://github.com/bongmin25"

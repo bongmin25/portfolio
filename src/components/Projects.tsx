@@ -48,6 +48,21 @@ const projects = [
     github: "https://github.com/DevNavigator/DevNavigatorProject",
     live: "https://dev-navigator.vercel.app/",
   },
+  {
+    title: "Jesca | E-commerce",
+    description: "Emprendimiento de ropa",
+    image: "/jesca.png",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "HTML",
+      "Tailwind",
+      "Nest.js",
+      "Next.js",
+    ],
+    github: "https://github.com/bongmin25/Jesca",
+    live: "https://jesca-ochre.vercel.app/",
+  },
 ];
 
 const Projects: React.FC = () => {
